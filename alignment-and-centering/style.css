@@ -202,11 +202,10 @@ input::-moz-focus-inner {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100vh;
-  /* justify-content: space-evenly; */
+  /* align-content: center; */
+  /* flex-wrap: wrap; */
   /* border: 10px solid mistyrose; */
-  /* min-height: 100vh; */
-  /* flex-wrap: wrap; wrap-reverse, nowrap */
+  min-height: 100vh;
   /* flex-direction: column-reverse;  column, row, row-reverse*/
 }
 
