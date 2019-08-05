@@ -200,8 +200,8 @@ input::-moz-focus-inner {
 /* We start writing out flexbox here. The above is just page setup */
 .container {
   display: flex;
-  align-items: center;
-  justify-content: center;
+  align-items: flex-end;
+  justify-content: flex-start;
   /* align-content: center; */
   /* flex-wrap: wrap; */
   /* border: 10px solid mistyrose; */
@@ -240,5 +240,9 @@ But cant copy as in paragraph
 .box6 {
   order: 1;
 } */
+
+.box5 {
+  align-self: center;
+}
 
 /* Ordering finished */
